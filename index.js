@@ -66,7 +66,7 @@ class TicTacToe {
 
 
 async function startGame() {
-    console.log("WELCOME TO TIC-TAC-TOE, GAME BOARD:")
+    console.log("WELCOME TO TIC-TAC-TOE!")
     const rl = readline.createInterface({ input, output });
 
     const createGame = await rl.question(`To start game, enter board size: `)
